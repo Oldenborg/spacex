@@ -1,0 +1,44 @@
+html
+  overflow-y: scroll
+
+body, html
+  color: #FFF
+  background: #363636
+
+.latest
+  margin-bottom: 1rem
+
+.launches
+  display: grid
+  grid-gap: 1rem
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+
+.menu
+  padding: 1rem 0
+
+button
+  border: none
+  font-size: 1.1rem
+  font-weight: bold
+  background: #CCC
+  margin-right: 1rem
+  border-radius: 1rem
+  padding: 1rem  1.4rem
+
+  &:hover
+    cursor: pointer
+    background: white
+
+    &.button--success
+      background: #baff00
+
+    &.button--fail
+      background: #FF0000
+
+
+.button--success
+  background: #8dbf03
+
+.button--fail
+  background: #ac0000
+  color: white
